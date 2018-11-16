@@ -83,5 +83,3 @@ deploy:
   repo: git@github.com:mysteryven/mysteryven.github.io.git
 
 
-nav:
-  Home: /

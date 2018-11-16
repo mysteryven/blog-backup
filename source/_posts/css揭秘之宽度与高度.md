@@ -1,20 +1,20 @@
 ---
-title: css 深入浅出之宽度与高度
+title: css花园之宽度与高度
 date: 2018-11-10 16:37:58
 tags: css
 ---
 
 ## 总结
 
-如何在写 css 的时候经常出现 width、height，那说明你的 css 不过关。
+如何在写 css 的时候经常出现 width、height ，那说明你的 css 不过关。
 
 字体的默认行高是有字体设计师写的，所以才会出现不同字体 div 不一样高的情形。
 
-font-size 不影响 div 的高度，line-height 影响。
+「font-size」 不影响 div 的高度，「line-height」 影响。
 
 1em 等于两个英文字符，一个汉字。
 
-如果一个单词很长，超越了容器的宽度，默认是不会换行的，除非加连字符或者 「word-break」， div的宽度不是有字体长度决定的，span的宽度是由字体长度决定的 span （内联元素）的上下 padding margin都不影响div的高度。
+如果一个单词很长，超越了容器的宽度，默认是不会换行的，除非加连字符或者 「word-break」， div 的宽度不是有字体长度决定的，span 的宽度是由字体长度决定的 span（内联元素）的上下 padding margin 都不影响div的高度。
 
 文档流中，内联元素从左到右，超出之后另起一行，块级元素每次都另起一行。
 
