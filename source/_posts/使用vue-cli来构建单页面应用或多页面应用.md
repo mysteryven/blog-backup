@@ -1,5 +1,6 @@
 ---
-title: 使用vue-cli来构建单页面应用或多页面应用.md date: 2018-11-14 21:36:17
+title: 使用vue-cli来构建单页面应用或多页面应用 
+date: 2018-11-14 21:36:17
 tags: vue 
 ---
 
@@ -108,7 +109,10 @@ devServer: {
 
 ## alias 
 
+这一项可以使我们引入文件变得很方便，值得记录，放在最后
+
 ```
+ # vue.config.js
  configureWebpack: {
     resolve: {
       alias: {
@@ -119,6 +123,10 @@ devServer: {
     }
   },
 ```
+
+使用的话，比如 src/main.js 想引用 modules/css/common.css，则只需
+
+`import css/common.css`
 
 写到这里，关于 vue-cli 的使用已经基本介绍完毕了，后续可能会补充一些小的细节吧！
 

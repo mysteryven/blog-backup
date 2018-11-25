@@ -3,9 +3,15 @@ title: about Me
 date: 2018-11-10 16:58:58
 ---
 
-喜欢前端、吉他、动漫，欢迎朋友与我交流。
+Mail:   mysteryven@gmail.com
 
-当然了，我不是肥宅，我是有活力的青年。
+Github: https://github.com/mysteryven 
+
+QQ:     Null
+
+Tel:    Null
+
+
 
 
 
