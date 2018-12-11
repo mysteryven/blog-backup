@@ -5,7 +5,7 @@
 # Site
 title: MysteryZZZ's Blog 
 subtitle: 聊音乐，聊技术
-description: stay foolish, stay hungry. 
+description: 技术类文章在「Tech」，其他的文章在「Read」
 keywords: web music
 author: Wang Wenzhe 
 language: chinese
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://writerwz.wang
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
