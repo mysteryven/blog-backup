@@ -21,4 +21,7 @@ git rebase -i 父亲的commitid，来修改一个commit 或者多个
 git diff --cached 暂存区和 head 指向的 commit 之间的差别
 git diff 工作区和暂存区的差别，后面可以加文件名详细的比较文件
 
+git reset HEAD 暂存区的都不要了，还原回工作区
+变化工作区用 checkout 变暂存区用reset
+git checkout -- index.html 把工作区的文件改为和暂存区一样的
 
