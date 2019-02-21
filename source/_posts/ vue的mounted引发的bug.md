@@ -1,5 +1,5 @@
 ---
-title: 记一次vue的大坑！
+title: vue 的一次bug
 date: 2018-12-06 19:55:09
 tags: vue
 ---

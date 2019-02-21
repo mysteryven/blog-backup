@@ -1,5 +1,5 @@
 ---
-title: git的一些很有用的命令.md
+title: git的一些很有用的命令
 date: 2018-12-11 20:53:19
 tags: git
 ---
