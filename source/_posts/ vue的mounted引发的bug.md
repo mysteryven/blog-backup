@@ -1,5 +1,5 @@
 ---
-title: vue 的一次bug
+title: 轮播组件和vue结合的一次bug
 date: 2018-12-06 19:55:09
 tags: vue
 ---

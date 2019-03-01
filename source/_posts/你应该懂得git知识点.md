@@ -1,5 +1,5 @@
 ---
-title: 你应该懂得git知识点
+title: 一些git知识点
 date: 2018-11-25 18:35:48
 tags: git
 ---
@@ -7,6 +7,30 @@ tags: git
 > 2018.8.24 晴
 
 在公司用到的VSC是SVN,并且用到的也只是简单的几个命令，昨天我学习了一下Github的一些操作，  觉得很有必要学习一个git了，这对我理解Github的用法也很有帮助，也对我以后有好处。于是我今天从Coursera上注册了一个课程，准备跟随他学习一下Git，笔记将记录在这里.
+
+## 常用命令
+
+git rest --hard 是清除工作区和暂存区里面的代码，也就是清除当前未 add，和已经 add 但是没有 commit 的代码
+git mv readme readme.md git 重命名的简便方式
+git log -n4 --oneline 最近的 4 次
+git log --master --graph 图例化
+git help --web log 
+git config --local user.name 'wenzhe'
+gitk -all 图形界面
+git checkout -b newBranch 创建新分支并切换到
+git diff 比较两个commit 版本
+git diff HEAD HEAD^
+git branch -d branch 删除分支，如果没有合并 git 会提示，此时再 -D 删除最保险
+git commit --amend
+git rebase -i 父亲的commitid，来修改一个commit 或者多个
+上面那个命令修改多个的时候可能不能直接行，那就 git rebase --continue
+git diff --cached 暂存区和 head 指向的 commit 之间的差别
+git diff 工作区和暂存区的差别，后面可以加文件名详细的比较文件
+
+git reset HEAD 暂存区的都不要了，还原回工作区
+变化工作区用 checkout 变暂存区用reset
+git checkout -- index.html 把工作区的文件改为和暂存区一样的
+
 
 ## 宏观的理解Git
 

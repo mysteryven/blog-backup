@@ -76,6 +76,10 @@ pagination_dir: page
 theme: cactus 
 colorscheme: light 
 
+posts_overview:
+  show_all_posts: false
+  post_count: 16 
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
