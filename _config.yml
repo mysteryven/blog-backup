@@ -6,14 +6,14 @@
 title: MysteryZZZ's Blog 
 subtitle: none
 description:  
-keywords: web music
-author: Wang Wenzhe 
+keywords: front-end js
+author: wz 
 language: chinese
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://writerwz.wang
+url: http://mysterywz.xyz
 root: /
 permalink: passages/:title/ 
 permalink_defaults:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-apollo
+theme: Chic 
 
 posts_overview:
   show_all_posts: false
